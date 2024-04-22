@@ -14,6 +14,7 @@
 - [x] 支持自定义API BaseUrl；
 - [x] 支持更多的OpenAI模型(20240419)
 - [x] 支持文生图功能
+- [x] 支持prompt面板快捷键【command + L】
 - [ ] 支持对话框聊天功能
 - [ ] 手机端支持语音对话能力
 - [ ] 支持查询余额的能力(进行中)
@@ -34,7 +35,9 @@
 
 ![设置](settings.gif)
 
-![](static-setting.png)
+
+![static-setting.png](https://b3logfile.com/siyuan/1679537947102/assets/image-20240422205450-f5lt51x.png)
+
 ### 使用步骤
 
 1. 打开思源笔记文档
@@ -43,7 +46,7 @@
 4. 调整温度，温度值越小，模型生成的内容越准确【适合严谨的文章】。温度值越高，模型生成内容越多样【适合有创意、想象力的文章】。
 5. 在prompt处描述你想使用大模型做什么，比如翻译、润色文章、生成文章大纲、制定计划等。
 
-![prompt对话框](static-prompt.png)
+![](https://b3logfile.com/siyuan/1679537947102/assets/image-20240422205904-sw9263h.png)
 
 ### 流式输出
 使用流式输出需要在设置面板处开启流式输出的开关
