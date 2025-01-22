@@ -3,10 +3,11 @@
 2. 指令模式【开发完成】：参考 notion.ai ，更适合文本编辑，比如对现有文本进行润色、扩写等。有prompt面板，可以对prompt进行增删改查。
 
 ### 聊天模式
-开发中...  
+快捷键： option + command + L
+【开发中...  】
 
 ### 指令模式
-快捷键：option + command + k
+快捷键：option + command + K
 ​![指令模式](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/yyy.jpg)​
 ![模型](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E6%A8%A1%E5%9E%8B.png)
 ![超参数面板](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E8%B6%85%E5%8F%82%E6%95%B0%E9%9D%A2%E6%9D%BF.png)
