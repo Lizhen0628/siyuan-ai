@@ -5,6 +5,7 @@
 ### 聊天模式
 快捷键： option + command + L
 【开发中...  】
+![聊天模式](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/chat.png)
 
 ### 指令模式
 快捷键：option + command + K
