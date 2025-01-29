@@ -15,6 +15,23 @@
 ![超参数面板](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E8%B6%85%E5%8F%82%E6%95%B0%E9%9D%A2%E6%9D%BF.png)
 
 
+## 支持模型
+1. DeepSeek Chat
+2. DeepSeek Reasoner
+3. Moonshot Chat
+4. Qwen Turbo
+5. Qwen Plus
+6. Qwen Max
+7. Doubao 1.5 Lite
+8. Doubao 1.5 Pro
+9. GPT 4o
+10. GPT 4o mini
+11. GPT 4 Turbo
+12. Claude 3.5 Haiku
+13. Claude 3.5 Sonnet
+14. Claude 3 Opus
+
+
 ## TODO
 - [x] 指令模式
 - [x] 使用/召唤指令面板、对prompt进行增删改查
@@ -31,9 +48,9 @@
 - [x] 聊天模式完善工具栏图标
 - [ ] 支持文生图模型【根据文本生成图片】
 - [ ] 支持图生文模型【根据图片生成文本，或者对图片进行问答】
-- [ ] 支持联网搜索功能
+- [x] 支持联网搜索功能
 - [ ] 支持文件上传功能
-- [ ] 笔记内容问答功能
+- [x] 笔记内容问答功能【聊天模式待完善】
 
 
 ## 反馈 
