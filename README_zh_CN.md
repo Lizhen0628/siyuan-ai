@@ -37,7 +37,7 @@
 7. Doubao 1.5 Lite
 8. Doubao 1.5 Pro
 9. GPT 4o
-10. GPT 4o mini
+10. GPT o3 mini
 11. GPT 4 Turbo
 12. Claude 3.5 Haiku
 13. Claude 3.5 Sonnet
