@@ -27,6 +27,15 @@
 ## 显示deepseek 深度思考过程
 ![深度思考](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E6%98%BE%E7%A4%BA%E6%8E%A8%E7%90%86%E8%BF%87%E7%A8%8B.png)
 
+
+## 知识库
+知识库概念：所有的笔记内容的集合。
+开启方式在超参数中开启知识库功能。
+![知识库-聊天模式](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/knowledge_chat.png)
+![知识库-指令模式](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/knowledge_instruction.png)
+
+
+
 ## 支持模型
 1. DeepSeek Chat
 2. DeepSeek Reasoner
@@ -37,7 +46,7 @@
 7. Doubao 1.5 Lite
 8. Doubao 1.5 Pro
 9. GPT 4o
-10. GPT 4o mini
+10. GPT o3 mini
 11. GPT 4 Turbo
 12. Claude 3.5 Haiku
 13. Claude 3.5 Sonnet
@@ -62,7 +71,7 @@
 - [ ] 支持图生文模型【根据图片生成文本，或者对图片进行问答】
 - [x] 支持联网搜索功能
 - [ ] 支持文件上传，文件问答功能
-- [x] 笔记内容问答功能【待完善优化】
+- [x] 笔记内容问答功能【知识库功能】
 
 
 ## 反馈 
