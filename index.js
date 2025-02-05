@@ -240,7 +240,7 @@ Result: ${JSON.stringify(c)}`);else l=c;let d;i&&"configurable"in i&&(d=i.config
 `,e.callback(i)}i+=`
 
 ---------------------------------------
-`}if(e.isKnowledge){const u={secret:e.phone,text:e.messages[e.messages.length-1].content,top_k:10},d=await ft.post(yM,u);let _=new Set;for(let p of d.data){if(_.has(p.block_id))continue;_.add(p.block_id);const m=await hj(p.document_id,p.block_id,3);r.push(JSON.stringify(m))}a=[...e.messages.splice(0,-1),{role:"user",content:`你是用户的笔记ai提问助手，请根据用户的问题和你检索到的笔记内容来回答用户的问题
+`}if(e.isKnowledge){const u={secret:e.phone,text:e.messages[e.messages.length-1].content,top_k:10},d=await ft.post(yM,u);let _=new Set;for(let p of d.data){if(_.has(p.block_id))continue;if(_.size>3)break;_.add(p.block_id);const m=await hj(p.document_id,p.block_id,3);r.push(JSON.stringify(m))}a=[...e.messages.splice(0,-1),{role:"user",content:`你是用户的笔记ai提问助手，请根据用户的问题和你检索到的笔记内容来回答用户的问题
             ## 回答的格式
             要求：你的回答要表示是基于哪些块的内容回答的，表现方式是在对应回答的后面添加 :[种花心得(这个块的内容摘要)](siyuan://blocks/20240113141417-va4uedb(笔记块的id))
             例如 :
