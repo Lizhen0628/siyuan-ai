@@ -240,15 +240,20 @@ Result: ${JSON.stringify(c)}`);else l=c;let d;i&&"configurable"in i&&(d=i.config
 `,e.callback(i)}i+=`
 
 ---------------------------------------
-`}if(e.isKnowledge){const u={secret:e.phone,text:e.messages[e.messages.length-1].content,top_k:10},d=await ft.post(yM,u);let _=new Set;for(let p of d.data){if(_.has(p.block_id))continue;if(_.size>3)break;_.add(p.block_id);const m=await hj(p.document_id,p.block_id,3);r.push(JSON.stringify(m))}a=[...e.messages.splice(0,-1),{role:"user",content:`你是用户的笔记ai提问助手，请根据用户的问题和你检索到的笔记内容来回答用户的问题
+`}if(e.isKnowledge){const u={secret:e.phone,text:e.messages[e.messages.length-1].content,top_k:10},d=await ft.post(yM,u);let _=new Set;for(let p of d.data){if(_.has(p.block_id))continue;if(_.size>3)break;_.add(p.block_id);const m=await hj(p.document_id,p.block_id,3);r.push(JSON.stringify(m))}a=[...e.messages.splice(0,-1),{role:"user",content:`你是用户的笔记ai提问助手，请根据用户的问题和你检索到的笔记内容以及你所具备的知识来回答用户的问题
             ## 回答的格式
-            要求：你的回答要表示是基于哪些块的内容回答的，表现方式是在对应回答的后面添加 :[种花心得(这个块的内容摘要)](siyuan://blocks/20240113141417-va4uedb(笔记块的id))
+            要求：你的回答要表示是基于哪些块的内容回答的，表现方式是在对应回答的后面添加[种花心得(这个块的内容摘要)](siyuan://blocks/20240113141417-va4uedb(笔记块的id))
             例如 :
 
             提问:怎么养兰花
             回答:
-            1. 保持适宜的空气湿度 [养兰花的第三天](siyuan://blocks/20130123242415-ad32fad12)
-            2. 需要准备的一些工具:.....  [种花心得](siyuan://blocks/20160133242325-d23dfg1)
+            养花是一门需要耐心和细心的艺术，首先要了解花卉的生长习性，才能为其提供合适的生长环境。选择花盆时，透气性和排水性是关键，底部一定要有排水孔，避免积水导致烂根。土壤的选择也很重要，大多数花卉喜欢疏松、肥沃且排水良好的土壤，可以根据花卉的需求调配适合的土壤，比如添加腐叶土或珍珠岩来改善透气性。
+
+[光照](siyuan://blocks/20130123242415-ad32fad12)是花卉生长的重要因素之一。不同的花卉对光照的需求各不相同，喜阳植物如月季、太阳花需要充足的阳光，每天至少要有6小时的直射光；而耐阴植物如绿萝、龟背竹则适合放在散射光充足的地方，避免强光直射；半阴植物如君子兰、兰花则需要适中的光照，既不能暴晒，也不能完全遮阴。
+
+[浇水](siyuan://blocks/20160133242325-d23dfg1)是养花过程中需要特别注意的环节。大多数花卉喜欢“见干见湿”的浇水方式，即等土壤表面稍微干燥后再浇水，避免频繁浇水导致根系缺氧。不同花卉对水分的需求也不同，喜湿植物如蕨类需要保持土壤湿润，而多肉植物则需要少浇水。每次浇水后，要确保多余的水从排水孔流出，避免盆底积水。
+
+总之，养花是一项需要耐心和细心的工作，只有根据花卉的具体需求提供合适的生长环境，才能让花卉健康生长，绽放出美丽的花朵。
 
             ## 注意你的回答最后面附加的链接 [] 内填的是这个块的摘要文本 () 中的 siyuan://blocks/id 是思源特有的链接方式
             `},{role:"assistant",content:`检索到的内容：
