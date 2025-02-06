@@ -34,7 +34,8 @@
 ![知识库-聊天模式](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/knowledge_chat.png)
 ![知识库-指令模式](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/knowledge_instruction.png)
 
-
+## 图像理解
+![图像理解](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/1738843990689.png)
 
 ## 支持模型
 1. DeepSeek Chat
@@ -68,7 +69,7 @@
 - [x] 聊天模式可以调整超参数
 - [x] 聊天模式完善工具栏图标
 - [ ] 支持文生图模型【根据文本生成图片】
-- [ ] 支持图生文模型【根据图片生成文本，或者对图片进行问答】
+- [x] 图像理解【根据图片生成文本，或者对图片进行问答】
 - [x] 支持联网搜索功能
 - [ ] 支持文件上传，文件问答功能
 - [x] 笔记内容问答功能【知识库功能】
