@@ -38,6 +38,10 @@
 ![图像理解上](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/1738843990689.png)
 ![图像理解下](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/1738885335871.png)
 
+## 基于文档的问答
+** 暂不支持pdf【开发中...】 **
+![文档问答](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/fileask.png)
+
 ## 支持模型
 1. DeepSeek Chat
 2. DeepSeek Reasoner
@@ -72,7 +76,7 @@
 - [ ] 支持文生图模型【根据文本生成图片】
 - [x] 图像理解【根据图片生成文本，或者对图片进行问答】
 - [x] 支持联网搜索功能
-- [ ] 支持文件上传，文件问答功能
+- [x] 支持文件上传，文件问答功能【pdf问答开发中...】
 - [x] 笔记内容问答功能【知识库功能】
 
 
