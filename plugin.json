@@ -26,7 +26,7 @@
   },
   "description": {
     "en_US": "siyuan note ai",
-    "zh_CN": "思源笔记AI"
+    "zh_CN": "思源笔记AI,功能:聊天,知识库,图像问答,文件问答。支持最新模型:deepseek,qwen,openai,claude..."
   },
   "readme": {
     "en_US": "README.md",
