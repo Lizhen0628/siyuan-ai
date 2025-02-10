@@ -1,4 +1,11 @@
 {
+    "balanceQuery": "余额查询",
+    "accountBalance": "账户余额",
+    "validUntil": "有效期",
+    "refresh": "刷新",
+    "settingGroup": "🌈 设置",
+    "buyKeyOnTaobao": "淘宝扫码购买密钥：",
+    "taobaoAlt": "淘宝",
     "instructionMode": "指令模式",
     "chatMode": "聊天模式",
     "knowledgeReady": "知识库准备完成",

@@ -1,4 +1,11 @@
 {
+  "balanceQuery": "Balance Query",
+  "accountBalance": "Account Balance",
+  "validUntil": "Valid Until",
+  "refresh": "Refresh",
+  "settingGroup": "🌈 Settings",
+  "buyKeyOnTaobao": "Scan QR code to purchase key on Taobao:",
+  "taobaoAlt": "Taobao",
     "instructionMode": "Command Mode",
     "chatMode": "Chat Mode",
     "knowledgeReady": "KnowledgeBase Is Ready!",
