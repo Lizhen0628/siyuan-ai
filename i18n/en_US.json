@@ -1,4 +1,5 @@
 {
+  "apiKeyExpiredMsg": "API Key has expired ! ",
   "failedToLoadMemoryVectorStore": "Failed to load memory vector store:",
     "loadChatData": "Load Chat Data:",
     "loadPromptData": "Load Prompt Data:",
@@ -6,6 +7,7 @@
     "greeting": "Greeting",
     "defaultSystemPrompt": "I am a helpful assistant. I can help you by answering your questions. If information is insufficient, I can also ask you questions.",
     "defaultTranslationExample": "Hello, I am a translator. Please translate the following content: Currently, most parts of our country are experiencing a significant warm-up, with sunny and warm weather prevailing...",
+    "defaultTranslationResponse":"目前，我国大部分地区正经历显著的回暖，天气以晴朗温暖为主。",
     "helloMessage": "Hello",
     "helloResponse": "Hello, I'm happy to help you.",
     "settingsGroup": "🌈 Settings",

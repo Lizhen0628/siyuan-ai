@@ -1,4 +1,5 @@
 {
+  "apiKeyExpiredMsg": "API Key 已过期",
   "failedToLoadMemoryVectorStore": "加载内存向量存储失败:",
   "loadChatData": "加载聊天数据:",
   "loadPromptData": "加载提示词数据:",
@@ -6,6 +7,7 @@
   "greeting": "打招呼",
   "defaultSystemPrompt": "你是一个乐于助人的助手。你可以通过回答我的问题来帮助我。如果信息不足，你也可以问我问题。",
   "defaultTranslationExample": "你好，我是一名翻译员，请翻译以下内容：目前，我国大部正在经历一场大回暖，晴暖当道。但很快天气格局将发生明显转折，预计23日至27日，今年首场寒潮过程将影响我国，带来剧烈降温和大风雨雪天气。",
+  "defaultTranslationResponse":"Currently, most of China is experiencing a significant warming trend, with sunny and warm conditions prevailing. However, the weather pattern is expected to undergo a noticeable shift soon. From March 23 to 27, the first major cold wave of the year is anticipated to affect the country, bringing drastic temperature drops and strong winds, heavy rains, and snowfall.",
   "helloMessage": "你好",
   "helloResponse": "你好，很高兴为你服务。",
   "settingsGroup": "🌈 设置",
