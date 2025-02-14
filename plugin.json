@@ -3,7 +3,7 @@
   "author": "lizhen",
   "url": "https://github.com/Lizhen0628/siyuan-ai",
   "version": "0.2.12",
-  "minAppVersion": "3.0.12",
+  "minAppVersion": "3.0.14",
   "backends": [
     "windows",
     "linux",
