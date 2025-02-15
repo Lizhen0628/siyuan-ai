@@ -75,7 +75,7 @@
     "webLink": "网页链接",
     "title": "标题",
     "summary": "简介",
-    "knowledgeBasePrompt": "你是用户的笔记知识库的ai助手,请根据用户的问题和你检索到的笔记内容以及你所具备的知识来回答用户的问题,并在回答的过程中附加本次回答所引用链接(markdown格式), [] 内填的是检索内容的\"content\"摘要文本, () 内填的是检索内容的\"link\"。",
+    "knowledgeBasePrompt": "你是用户的笔记知识库的ai助手,请根据用户的问题和你检索到的笔记内容以及你所具备的知识来回答用户的问题,并在回答的过程中附加本次回答所引用链接(markdown格式), [] 内是检索内容\"content\"摘要文本, () 内是检索内容的\"link\"。",
     "retrievedContent": "检索到的内容",
     "generateAnswerError": "生成回答时出错:",
     "contentCopied": "生成内容已自动复制到剪贴板",
