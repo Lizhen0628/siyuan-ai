@@ -42,6 +42,9 @@
 ** 暂不支持pdf【开发中...】 **
 ![文档问答](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/fileask.png)
 
+## 文生图
+![文生图](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/1739869100048.png)
+
 ## 支持模型
 1. DeepSeek Chat
 2. DeepSeek Reasoner
@@ -73,7 +76,7 @@
 - [x] 聊天模式可以随时切换模型
 - [x] 聊天模式可以调整超参数
 - [x] 聊天模式完善工具栏图标
-- [ ] 支持文生图模型【根据文本生成图片】
+- [x] 支持文生图模型【根据文本生成图片】
 - [x] 图像理解【根据图片生成文本，或者对图片进行问答】
 - [x] 支持联网搜索功能
 - [x] 支持文件上传，文件问答功能【pdf问答开发中...】
