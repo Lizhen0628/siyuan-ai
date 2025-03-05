@@ -367,7 +367,7 @@ ${hn.answerBasedOnSearch}${a.content};`:r=a.content,!0){case a.role==="system":n
 
 ${r}`)):n.push(new cr(r));break;case a.role==="image":break;default:n.push(new cr(r));break}return n}async function pu(t,e){var l;if(!lx(e.apiKey)){console.error("apiKey is invalid");return}let n=[],r=[],s=[],a="",i=e.isReason?`${hn.thinking}
 
-`:"",o=!1;if(e.isSearch){let d=e.messages[e.messages.length-1].content;d||(d=e.messages[e.messages.length-2].content);const f=new Z4({apiBase:R2,params:{format:"json",engines:"google,bing",numResults:3},headers:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}}),p=await uF(f,d);for(let[h,g]of p.entries()){if(g.link.includes("zhihu"))continue;h===0&&(a+=`${hn.relatedWebPages}:
+`:"",o=!1;if(e.isSearch){let d=e.messages[e.messages.length-1].content;d||(d=e.messages[e.messages.length-2].content);const f=new Z4({apiBase:R2,params:{format:"json",engines:"google,bing",numResults:3,safesearch:2},headers:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}}),p=await uF(f,d);for(let[h,g]of p.entries()){if(g.link.includes("zhihu"))continue;h===0&&(a+=`${hn.relatedWebPages}:
 
 `);const b=await cF(g.link);let y=b.length>1024?await mF(b.replace(`
 `,""),e.apiKey):b;n.push(y),a+=`${hn.webLink}: ${g.link}
