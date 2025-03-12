@@ -1,97 +1,124 @@
-## Features
-1. Chat Mode [Completed]: Better suited for creative inspiration collection. Using SiYuan Notes content as a knowledge base, through Q&A interaction, the large language model can retrieve notes or search online for relevant content to generate new material. Users can write satisfactory content into documents first, then use Instruction Mode to polish and expand the text.
-2. Instruction Mode [Completed]: Similar to notion.ai, better suited for text editing, such as polishing and expanding existing text. Features a prompt panel for adding, deleting, modifying, and querying prompts.
+## 功能介绍
+1. 聊天模式：更适合创作灵感收集，以思源笔记内容作为知识库，通过问答的方式，让大模型去检索笔记或联网搜索相关内容，生成新的内容。将自己满意的内容先写入到文档中，再通过指令模式，让大模型对文档进行润色、扩写等。
+2. 指令模式：参考 notion.ai ，更适合文本编辑，比如对现有文本进行润色、扩写等。有prompt面板，可以对prompt进行增删改查。
+3. 文生图：根据文本生成图片。
+4. 图像理解：根据图片生成文本，或者对图片进行问答。
+5. 文档问答：基于文档的问答，支持word、pdf、ppt、jpeg等等文件格式。
+6. 联网搜索：可以对互联网进行搜索，获取相关内容。
+7. 知识库：所有的笔记内容的集合。
 
-### Chat Mode
-Shortcut [Mac]: option + command + L
 
-Shortcut [Windows]: alt + win + L
 
-![Chat Mode](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/chat.png)
+‍
+## 插件设置说明
 
-### Instruction Mode
-Shortcut [Mac]: option + command + K
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221183944898.png)​
 
-Shortcut [Windows]: alt + win + K
+‍
 
-![Instruction Mode](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/yyy.jpg)
-![Models](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E6%A8%A1%E5%9E%8B.png)
-![Hyperparameter Panel](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E8%B6%85%E5%8F%82%E6%95%B0%E9%9D%A2%E6%9D%BF.png)
+## 五种形态
 
-## Web Search
-![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E6%8C%87%E4%BB%A4%E6%A8%A1%E5%BC%8F%E8%81%94%E7%BD%91%E6%90%9C%E7%B4%A2.png)
-![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E6%8C%87%E4%BB%A4%E6%A8%A1%E5%BC%8F%E8%81%94%E7%BD%91%E6%90%9C%E7%B4%A2%E7%94%9F%E6%88%90.png)
-![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E8%81%8A%E5%A4%A9%E6%A8%A1%E5%BC%8F%E8%81%94%E7%BD%91%E6%90%9C%E7%B4%A2.png)
-![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E8%81%8A%E5%A4%A9%E6%A8%A1%E5%BC%8F%E8%81%94%E7%BD%91%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C.png)
+1. 指令模式
+2. 聊天模式
+3. 文生图
+4. 快捷指令
+5. 侧边栏聊天【适合一般边阅读笔记文档，一边问大模型问题】
 
-## Display DeepSeek Deep Thinking Process
-![Deep Thinking](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/%E6%98%BE%E7%A4%BA%E6%8E%A8%E7%90%86%E8%BF%87%E7%A8%8B.png)
+【**推荐！！！** 】针对以上四种形态进行快捷设置。
 
-## Knowledge Base
-Knowledge Base Concept: A collection of all note contents.
-Enable in hyperparameter settings by activating the knowledge base feature.
-![Knowledge Base - Chat Mode](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/knowledge_chat.png)
-![Knowledge Base - Instruction Mode](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/knowledge_instruction.png)
+### 快捷键设置
 
-## Image Understanding
-![Image Understanding Top](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/1738843990689.png)
-![Image Understanding Bottom](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/1738885335871.png)
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184003473.png)​
 
-## Document-based Q&A
-**PDF support coming soon [In Development]**
-![Document Q&A](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/fileask.png)
+## 指令模式
 
-## Text-to-Image
-![Text-to-Image](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/1739869100048.png)
+在上图设置中，指令模式设置为：option + command + i， 通过快捷键召唤出指令模式面板如下：
 
-## Supported Models
-1. DeepSeek Chat
-2. DeepSeek Reasoner
-3. Moonshot Chat
-4. Qwen Turbo
-5. Qwen Plus
-6. Qwen Max
-7. Doubao 1.5 Lite
-8. Doubao 1.5 Pro
-9. GPT 4o
-10. GPT o3 mini
-11. GPT 4 Turbo
-12. Claude 3.5 Haiku
-13. Claude 3.5 Sonnet
-14. Claude 3 Opus
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184018422.png)​
 
-## TODO
-- [x] Instruction mode
-- [x] Use / to summon instruction panel, manage prompts (CRUD)
-- [x] Switch models and adjust parameters in instruction mode
-- [x] Add Moonshot and DeepSeek Reasoner models
-- [x] Add ChatGPT model
-- [x] Chat mode basic features: text input, generation, new chat creation
-- [x] Auto-generate chat titles in chat mode
-- [x] Render markdown format in chat bubbles
-- [x] Delete chat history in chat mode
-- [x] Use / to summon instruction panel in chat mode
-- [x] Switch models in chat mode
-- [x] Adjust parameters in chat mode
-- [x] Improve toolbar icons in chat mode
-- [x] Support text-to-image models
-- [x] Image understanding (generate text from images or Q&A about images)
-- [x] Support web search
-- [x] Support file upload and Q&A (PDF Q&A in development)
-- [x] Note content Q&A (Knowledge Base feature)
+### 设置
 
-## TODO [Optimizations]
-- [x] Add cloud and local storage options for knowledge base [High Priority]
-- [x] Add notebook exclusion feature
-- [x] Limit web search length
-- [x] Exclude mobile devices
-- [x] Customize shortcuts for instruction and chat modes [High Priority]
-- [x] Optimize UI [High Priority]
-- [x] Pin top-right icon
-- [ ] Add Word and PDF parsing [Medium Priority]
-- [ ] Add floating box display for reference links in generated content
-- [x] Add delete and refresh features for chat bubbles
-- [ ] Add @diary feature for diary recall and summarization
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184027227.png)​
 
-## Feedback
-![QQ Group: 710607849](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/qq.jpg)
+### 联网搜索
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184042457.png)​
+
+### 知识库
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184107634.png)​
+
+### 模型
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184116444.png)​
+
+
+## 侧边栏聊天
+![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250225195146716.png)
+
+
+## 聊天模式
+
+在设置中，聊天模式设置为：option + command + k， 通过快捷键召唤出聊天模式面板如下：
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184127293.png)​
+
+### 对话历史
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184138335.png)​
+
+### 设置
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184152726.png)​
+
+### 联网搜索
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184202371.png)​
+
+### 知识库
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184211358.png)​
+
+### 文档问答
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184223677.png)​
+
+### 图像理解
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184233729.png)​
+
+### 选择模型
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184243783.png)​
+
+## 快捷指令
+
+快捷指令，适合总结了合适对prompt之后，对文档进行快速处理，比如翻译。
+
+使用步骤：
+
+1. 利用指令模式优化好prompt，并保存prompt。
+2. 选中需要编辑的文本
+3. 按住快捷键【比如本文在设置中的快捷键是option + command + s】,唤起快捷指令面板
+4. 执行快捷指令
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184254433.png)​
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184305891.png)​
+
+## 文生图
+
+通过本文设置的快捷键【shift + command +i】 来唤起文生图面板
+
+​![](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/files/20250221184315666.png)​
+
+
+## TODO【优化】
+
+- [ ] 添加 @日记 功能，对日记进行回忆或总结
+- [ ] 增加对生成内容中引用链的浮框显示功能
+
+
+
+## 反馈 
+![qq群：710607849](https://pub-a4fc15e05e5b45ae93e81825f01bfb69.r2.dev/file-repository/files/%E5%BD%92%E6%A1%A3_1737019531739/qq.jpg)
