@@ -11,7 +11,7 @@
 
 淘宝扫码购买：
 
-​![](https://siyuan-pic-1300797959.cos.ap-nanjing.myqcloud.com/taobao.jpg)​
+​![](https://siyuan-pic-1300797959.cos.ap-nanjing.myqcloud.com/taobaobig.jpg)​
 
 10元密钥:10元token额度，有效期一个月
 
